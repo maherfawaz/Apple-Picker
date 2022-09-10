@@ -323,37 +323,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8062083832516367386, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -8062083832516367386, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: applePrefab
-      value: 
-      objectReference: {fileID: 133151603397548683, guid: 6608a38dc63da214f9b74f24110e1593, type: 3}
-    - target: {fileID: -8062083832516367386, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: changeDirChance
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4461870317941643806, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4461870318137684941, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4461870319191742276, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
       propertyPath: m_Name
       value: AppleTree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4461870319191742276, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4461870319191742278, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4461870319191742279, guid: 016a62bd9cde43646b78a2bbf9a1f8dc, type: 3}
       propertyPath: m_RootOrder
