@@ -12,7 +12,7 @@ public class HighScore : MonoBehaviour {
     void Awake() {
         _UI_TEXT = GetComponent<Text>();
 
-        if(PlayerPrefs.HasKey("High Score")) {
+        if(PlayerPrefs.HasKey("HighScore")) {
             SCORE = PlayerPrefs.GetInt("HighScore");
         }
         PlayerPrefs.SetInt("HighScore", SCORE);
