@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AppleTree : MonoBehaviour {
     [Header("Inscribed")]
-    public GameObject applePrefab;
+    public List<GameObject> applePrefabs;
     public float speed = 1f;
     public float leftAndRightEdge = 10f;
     public float changeDirChance = 0.1f;
@@ -15,6 +15,8 @@ public class AppleTree : MonoBehaviour {
     }
 
     void DropApple() {
+        int prefabNum = Random.Range(0,applePrefabs.Count);
+        GameObject applePrefab = applePrefabs[prefabNum];
         GameObject apple = Instantiate<GameObject>(applePrefab);
         apple.transform.position = transform.position;
         Invoke("DropApple", appleDropDelay);

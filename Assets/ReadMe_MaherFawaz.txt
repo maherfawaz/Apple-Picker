@@ -10,7 +10,7 @@ Move the mouse left and right to move the barrel and catch the apples.
 
 
   ___What creative additions did you make? How can we find them?___
-Added a main menu. Added a second tree.
+Added a main menu. Added a second tree. Added more colors for the apples.
 
 
 
